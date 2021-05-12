@@ -1,0 +1,49 @@
+# GIMP gimprc
+# 
+# This is your personal gimprc file.  Any variable defined in this file takes
+# precedence over the value defined in the system-wide gimprc:
+# /etc/gimp/2.0/gimprc
+# Most values can be set within GIMP by changing some options in the
+# Preferences dialog.
+
+(default-image
+    (width 1920)
+    (height 1080)
+    (unit pixels)
+    (xresolution 300.000000)
+    (yresolution 300.000000)
+    (resolution-unit inches)
+    (image-type rgb)
+    (precision u8-gamma)
+    (color-managed yes)
+    (color-profile NULL)
+    (fill-type background))
+(default-grid
+    (style solid)
+    (fgcolor (color-rgba 0.000000 0.000000 0.000000 1.000000))
+    (bgcolor (color-rgba 1.000000 1.000000 1.000000 1.000000))
+    (xspacing 10.000000)
+    (yspacing 10.000000)
+    (spacing-unit inches)
+    (xoffset 0.000000)
+    (yoffset 0.000000)
+    (offset-unit inches))
+(theme "Gray")
+(fill-options
+    (style solid)
+    (antialias yes))
+(stroke-options
+    (style solid)
+    (antialias yes)
+    (method line)
+    (width 6.000000)
+    (unit pixels)
+    (cap-style butt)
+    (join-style miter)
+    (miter-limit 10.000000)
+    (dash-offset 0.000000)
+    (dash-info 0)
+    (emulate-brush-dynamics no))
+
+
+# end of gimprc

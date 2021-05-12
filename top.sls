@@ -1,0 +1,5 @@
+base:
+  '*':
+    - nethack
+    - apache
+    - postgres
